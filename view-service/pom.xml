@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.explore.technologies</groupId>
     <artifactId>view-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v1</version>
     <name>view-service</name>
-    <description>view-service</description>
+    <description>Java 17 view service</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
