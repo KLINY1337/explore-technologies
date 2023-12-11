@@ -1,4 +1,4 @@
-package com.explore.technologies.service.view;
+package com.explore.technologies.service.view.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
