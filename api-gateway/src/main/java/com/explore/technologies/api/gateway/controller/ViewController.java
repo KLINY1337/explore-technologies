@@ -26,7 +26,7 @@ public class ViewController {
         headers.setAccept(Collections.singletonList(MediaType.TEXT_HTML));
         headers.set("X-Client-Id", apiGatewayClientId);
         HttpEntity request = new HttpEntity(headers);
-        ResponseEntity<String> response = restTemplate.exchange(localViewServiceUrl + "/view/index", HttpMethod.GET, request, String.class, 1);
+        ResponseEntity<String> response = restTemplate.exchange(viewServiceUrl + "/view/index", HttpMethod.GET, request, String.class, 1);
 
         if (response.getStatusCode() == HttpStatus.OK) {
             model.addAttribute("viewContent", response.getBody());
