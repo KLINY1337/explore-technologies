@@ -13,4 +13,9 @@ public class ViewController {
     public String getIndexView(Model model) {
         return "html/index";
     }
+
+    @GetMapping("/main")
+    public String getMainView() {
+        return "html/main";
+    }
 }
